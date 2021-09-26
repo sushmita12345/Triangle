@@ -158,6 +158,7 @@ label{
   border-radius: 0.5rem;
   font-size: 0.9rem;
   border-style: solid;
+  font-weight: bold;
 }
 
 #submit-btn:hover {
@@ -273,7 +274,7 @@ label{
   
   #triangle-button {
     width: 25vw;
-    height: 6vh;
+    height: 7vh;
     font-size: 0.9rem;
     
   }
@@ -308,6 +309,7 @@ label{
   
   .button-1 {
     text-align: left;
+    
   }
   #submit-btn {
     
@@ -325,8 +327,8 @@ label{
   }
 
   .side-input {
-    width: 35vw;
-    height: 7vh;
+    width: 30vw;
+    height: 5vh;
   }
   
   #hypotenuse-btn {
@@ -334,12 +336,13 @@ label{
     width: 28vw;
     height: 8vh;
     font-size: 0.9rem;
+    margin-left: 3vw;
   }
   
   #triangle-btn{
     width: 27vw;
     height: 8vh;
-    margin-left: 5vw;
+    margin-left: 10vw;
   }
 
 }
