@@ -9,22 +9,37 @@
     
   </head>
   <body>
-    <nav>
-      <a href="index.html">Is Triangle?</a>
-      <a href="quiz.html">Triangle Quiz</a>
-      <a href="hypotenuse.html">Calculate Hypotenuse</a>
-      <a href="areaOfTriangle.html">Calculate Area Of Triangle</a>
-    </nav>
-    <h1>Is Triangle?</h1>
-    <label for="angle1">angle1</label>
-    <input type="number" class="angle-input" />
-    <label for="angle2">angle2</label>
-    <input type="number" class="angle-input" />
-    <label for="angle3">angle3</label>
-    <input type="number" class="angle-input" />
-    <button id="triangle-button">Is Triangle</button>
-    <div id=output></div>
-    <script src="App.js" ></script>
+    <nav class="navigation container">
 
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="index.html">Is Triangle?</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/quiz.html">Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/hypotenuse.html">Hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/areaOfTriangle.html">Area Of Triangle</a>
+        </li>
+      </ul>
+      
+    </nav>
+    <h1 class="top">a + b + c = 180° <br>Is Triangle?</h1>
+    <div class="wrapper">
+      <label for="angle1">a =</label>
+      <input type="number" class="angle-input" /><br>
+      <label for="angle2">b =</label>
+      <input type="number" class="angle-input" /><br>
+      <label for="angle3">c =</label>
+      <input type="number" class="angle-input" /><br>
+      <div class="button">
+        <button id="triangle-button">Is Triangle</button>
+      </div>
+      <div id=output></div>
+      <script src="App.js" ></script>
+    </div>
   </body>
 </html>

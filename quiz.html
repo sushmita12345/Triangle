@@ -9,30 +9,44 @@
     
   </head>
   <body>
-    <nav>
-      <a href="index.html">Is Triangle?</a>
-      <a href="quiz.html">Triangle Quiz</a>
-      <a href="hypotenuse.html">Calculate Hypotenuse</a>
-      <a href="areaOfTriangle.html">Calculate Area Of Triangle</a>
+    <nav class="navigation container">
+
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="index.html">Is Triangle?</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="/quiz.html">Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/hypotenuse.html">Hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/areaOfTriangle.html">Area Of Triangle</a>
+        </li>
+      </ul>
+      
     </nav>
-    <h1>Triangle Quiz</h1>
+    <h1 class="top-1">Triangle Quiz</h1>
     <form class="quiz-form">
       <div class="container-question">
-        <p>What is the third angle for the triangle where angle1 = 45 degree and angle==2 = 45 degree?</p>
+        <p>1. What is the third angle for the triangle where angle1 = 45 degree and angle==2 = 45 degree?</p>
         <label><input type="radio" name="question1" value="45"/>45</label>
         <label><input type="radio" name="question1" value="60"/>60</label>
         <label><input type="radio" name="question1" value="90"/>90</label>
       </div>
       <div class="container-question">
-        <p>If a triangle has an angle of 90 degrees, what is it called?</p>
+        <p>2. If a triangle has an angle of 90 degrees, what is it called?</p>
         <label><input type="radio" name="question2" value="acute"/>acute</label>
         <label><input type="radio" name="question2" value="obtuse"/>obtuse</label>
         <label><input type="radio" name="question2" value="right angle"/>right angle</label>
         
       </div>
     </form>
-    <button id="submit-btn">Check Answer</button>
-    <div id="output"></div>
+    <div class="button-1">
+      <button id="submit-btn">Check Answer</button>
+    </div>
+    <div id="output-1"></div>
     <script src="quiz.js" ></script>
   </body>
 </html>
