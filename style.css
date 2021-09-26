@@ -169,6 +169,20 @@ label{
 
 }
 
+#output-1{
+  width: 20vw;
+  height: 6vh;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  padding-top: 1rem;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  text-align: left;
+  text-align: center;
+
+}
+
 .side-input {
   margin-top: 2rem;
   width: 15vw;
@@ -324,6 +338,12 @@ label{
     height: 9vh;
     margin-top: 2rem;
     font-size: 1.2rem;
+  }
+
+  #output-1{
+    width: 45vw;
+    height: 5vh;
+  
   }
 
   .side-input {
