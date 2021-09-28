@@ -30,11 +30,11 @@
     <h1 class="top">a + b + c = 180° <br>Is Triangle?</h1>
     <div class="wrapper">
       <label for="angle1">a =</label>
-      <input type="number" class="angle-input" /><br>
+      <input type="number" class="angle-input" min="0" oninput="validity.valid||(value='');"/><br>
       <label for="angle2">b =</label>
-      <input type="number" class="angle-input" /><br>
+      <input type="number" class="angle-input" min="0" oninput="validity.valid||(value='');" /><br>
       <label for="angle3">c =</label>
-      <input type="number" class="angle-input" /><br>
+      <input type="number" class="angle-input" min="0" oninput="validity.valid||(value='');" /><br>
       <div class="button">
         <button id="triangle-button">Is Triangle</button>
       </div>
