@@ -3,7 +3,7 @@ const submitAnswerBtn = document.querySelector("#submit-btn");
 
 const outputCheck = document.querySelector("#output-1");
 
-const correctAnswer = ["90", "right angle", "Equilateral"];
+const correctAnswer = ["90", "right angle", "Equilateral", "Midsegment", "Two sides are equal"];
 
 function calculateScore() {
   let score = 0;
