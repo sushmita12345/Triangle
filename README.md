@@ -1,6 +1,6 @@
 # Triangle Formula & Quiz
 <h2>About</h2>
-A web app build with HTML, CSS and Javascript, in which you can translate different emoji into their meanings through click or search
+A web app build with HTML, CSS and Javascript, in which there are four pages that contains triangle related formulas and quiz
 
 # Tools & Technology
 <li>HTML</li>
